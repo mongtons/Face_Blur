@@ -22,7 +22,7 @@ sklearn의 KNeighborClassifier를 이용한 사람 얼굴 분류 및 분류된 �
 * skLearn
 
 ## 라이브러리
-```
+```python
 import cv2
 import numpy as np
 from sklearn.neighbors import KNeighborClassifier
@@ -31,4 +31,8 @@ from sklearn.neighbors import KNeighborClassifier
 ## 실행 요약
 
 
-`result=cv2.CascadeClassifier(filename).dectMultiScale(image, scaleFactor=None, minNeighbors=None, minSize=None, maxSize=None`
+```python
+classifier=cv2.CascadeClassifier(filename)
+result=classifier.dectMultiScale(image, scaleFactor=None, minNeighbors=None, minSize=None, maxSize=None)
+```
+
