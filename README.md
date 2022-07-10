@@ -80,5 +80,9 @@ sideFace_classifier=cv2.CascadeClassifier('./haarcascade/haarcascade_profileface
  cv2.imshow(winName, frame)
  ```
  
- ## 후기
+## 후기
  &nbsp;분류기가 제대로 분류를 못할 때도 있고, scale와 minSize를 변경하면 전혀 인식을 못할 때도 있다. 딥러닝을 이용한 분류 기능이 더 뛰어난 것은 알고 있지만, 머신러닝 분류를 통해 특징을 어떻게 잡아주어야 하는지, 왜 특징을 잘잡아주어야 하는지를 인지할 수 있는 계기가 되었다.
+
+## 영상 출처
+* [Pixabay의 소년 사진](https://pixabay.com/ko/photos/%ec%86%8c%eb%85%84-%ec%95%84%ec%9d%b4-%ec%96%bc%ea%b5%b4-%ec%a0%8a%ec%9d%80-1252771/)
+* [Pixabay의 이발소 영상](https://pixabay.com/ko/videos/%EC%9D%B4%EB%B0%9C%EC%86%8C-%EC%9D%B4%EB%B0%9C%EC%82%AC-%EB%AC%B8%EC%9E%A5%EA%B0%80-39766/)
